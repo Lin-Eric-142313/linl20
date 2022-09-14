@@ -1,0 +1,21 @@
+[2022-09-13T14:31:52.313Z] Log level: Info
+[2022-09-13T14:31:52.323Z] [info] Validating found git in: git
+[2022-09-13T14:31:52.465Z] [info] Using git 2.20.1 from git
+[2022-09-13T14:31:52.526Z] > git rev-parse --show-toplevel [41ms]
+[2022-09-13T14:31:52.546Z] > git rev-parse --git-dir --git-common-dir [6ms]
+[2022-09-13T14:31:52.555Z] [info] Open repository: /home/linl20
+[2022-09-13T14:31:52.670Z] > git status -z -uall [102ms]
+[2022-09-13T14:31:52.687Z] > git symbolic-ref --short HEAD [7ms]
+[2022-09-13T14:31:52.753Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [55ms]
+[2022-09-13T14:31:52.792Z] > git remote --verbose [20ms]
+[2022-09-13T14:31:52.792Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+[2022-09-13T14:31:53.763Z] > git config --get commit.template [12ms]
+[2022-09-13T14:31:53.859Z] > git status -z -uall [84ms]
+[2022-09-13T14:31:53.875Z] > git symbolic-ref --short HEAD [5ms]
+[2022-09-13T14:31:53.891Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+[2022-09-13T14:31:53.920Z] > git remote --verbose [4ms]
+[2022-09-13T14:31:53.920Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+[2022-09-13T14:31:54.962Z] > git config --get commit.template [924ms]
+[2022-09-13T14:31:54.987Z] > git check-ignore -v -z --stdin [10ms]
+[2022-09-13T14:31:55.293Z] > git show --textconv :csc250_lab2-Lin-Eric-142313/lab2.c [17ms]
+[2022-09-13T14:31:55.295Z] > git ls-files --stage -- /home/linl20/csc250_lab2-Lin-Eric-142313/lab2.c [4ms]

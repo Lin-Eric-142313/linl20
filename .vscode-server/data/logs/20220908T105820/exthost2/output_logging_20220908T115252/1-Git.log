@@ -1,0 +1,9 @@
+[2022-09-08T15:52:52.287Z] Log level: Info
+[2022-09-08T15:52:52.297Z] [info] Validating found git in: git
+[2022-09-08T15:52:52.342Z] [info] Using git 2.20.1 from git
+[2022-09-08T15:53:30.494Z] > git clone https://github.com/csc250-systems-1-fall-2022/csc250_lab2-Lin-Eric-142313.git /home/linl20/csc250_lab2-Lin-Eric-142313 --progress [22935ms]
+[2022-09-08T15:53:30.495Z] Cloning into '/home/linl20/csc250_lab2-Lin-Eric-142313'...
+remote: Enumerating objects: 5, done.        
+remote: Counting objects:  20% (1/5)        remote: Counting objects:  40% (2/5)        remote: Counting objects:  60% (3/5)        remote: Counting objects:  80% (4/5)        remote: Counting objects: 100% (5/5)        remote: Counting objects: 100% (5/5), done.        
+remote: Compressing objects:  20% (1/5)        remote: Compressing objects:  40% (2/5)        remote: Compressing objects:  60% (3/5)        remote: Compressing objects:  80% (4/5)        remote: Compressing objects: 100% (5/5)        remote: Compressing objects: 100% (5/5), done.        
+remote: Total 5 (delta 0), reused 2 (delta 0), pack-reused 0        

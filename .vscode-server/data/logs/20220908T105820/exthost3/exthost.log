@@ -1,0 +1,15 @@
+[2022-09-08 11:53:44.933] [exthost] [info] Extension host with pid 44650 started
+[2022-09-08 11:53:44.966] [exthost] [info] Lock '/home/linl20/.vscode-server/data/User/workspaceStorage/13457ea0c11d35cc5092d7316dce23a7/vscode.lock': Lock acquired.
+[2022-09-08 11:53:44.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-08 11:53:45.004] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-08 11:53:45.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-08 11:53:45.064] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-08 11:53:45.104] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-08 11:53:45.126] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-08 11:53:45.132] [exthost] [info] Eager extensions activated
+[2022-09-08 11:53:47.074] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-08 11:53:50.826] [exthost] [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:c'
+[2022-09-08 11:53:50.890] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+[2022-09-08 13:03:53.112] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-09-08 13:03:53.114] [exthost] [info] Lock '/home/linl20/.vscode-server/data/User/workspaceStorage/13457ea0c11d35cc5092d7316dce23a7/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-08 13:03:53.149] [exthost] [info] Extension host with pid 44650 exiting with code 0

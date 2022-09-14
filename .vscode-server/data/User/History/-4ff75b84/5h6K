@@ -1,0 +1,46 @@
+#include <stdio.h>
+23
+/* function declarations before main() */
+4
+voidhello ();
+5
+voidworld ();
+6
+intanswer ();
+78
+/* main is often the first definition */
+9
+intmain (){
+10
+hello ();
+11
+world ();
+12
+return0;
+13
+}
+14
+15
+/* other function definitions follow */
+16
+voidhello (){
+17
+printf("hello ");
+18
+}
+19
+20
+voidworld (){
+21
+printf("world \n");
+22
+printf("answer is %d \n", answer ());
+23
+}
+24
+25
+intanswer (){
+26
+return42;
+27
+}

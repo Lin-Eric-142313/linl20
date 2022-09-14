@@ -1,0 +1,23 @@
+[2022-09-10 23:37:15.936] [exthost] [info] Extension host with pid 33362 started
+[2022-09-10 23:37:16.009] [exthost] [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:c'
+[2022-09-10 23:37:16.112] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+[2022-09-10 23:37:16.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-10 23:37:16.317] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-10 23:37:16.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-10 23:37:16.347] [exthost] [info] Lock '/home/linl20/.vscode-server/data/User/workspaceStorage/846d061fbe3b7c3efc4e33135743ac56/vscode.lock': Lock acquired.
+[2022-09-10 23:37:16.511] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-10 23:37:16.636] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-10 23:37:17.485] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5420
+[2022-09-10 23:37:18.382] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-10 23:37:18.407] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-10 23:37:18.414] [exthost] [info] Eager extensions activated
+[2022-09-10 23:37:18.566] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5420
+[2022-09-10 23:37:20.438] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-10 23:37:20.439] [exthost] [info] Lock '/home/linl20/.vscode-server/data/User/workspaceStorage/846d061fbe3b7c3efc4e33135743ac56/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-10 23:37:20.468] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2022-09-10 23:37:20.468] [exthost] [error] Error: Starting server failed
+	at LanguageClient.$start (/home/linl20/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/dist/main.js:56360:19)
+	at async LanguageClient.sendRequest (/home/linl20/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/dist/main.js:55664:32)
+[2022-09-10 23:37:22.458] [exthost] [error] Error: Stopping the server timed out
+	at /home/linl20/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/dist/main.js:56239:23
+[2022-09-10 23:37:22.458] [exthost] [info] Extension host with pid 33362 exiting with code 0
