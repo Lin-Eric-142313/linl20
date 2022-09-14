@@ -64,3 +64,6 @@
 [2022-09-14 18:29:24.467] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/linl20/csc250_lab2-Lin-Eric-142313/lab2.c' is in submodule 'csc250_lab2-Lin-Eric-142313'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-09-14 18:29:24.467] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/linl20/csc250_lab2-Lin-Eric-142313/lab2.c' is in submodule 'csc250_lab2-Lin-Eric-142313'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
 [2022-09-14 18:29:24.467] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/linl20/csc250_lab2-Lin-Eric-142313/lab2.c' is in submodule 'csc250_lab2-Lin-Eric-142313'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2022-09-14 18:50:33.461] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-09-14 18:50:33.461] [exthost] [info] Lock '/home/linl20/.vscode-server/data/User/workspaceStorage/846d061fbe3b7c3efc4e33135743ac56/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-14 18:50:33.495] [exthost] [info] Extension host with pid 49454 exiting with code 0
