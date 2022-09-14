@@ -423,3 +423,17 @@ gcc -ansi -pedantic -Wall lab2.c
 ./a.out wdnmd.txt
 gcc -ansi -pedantic -Wall lab2.c
 ./a.out wdnmd.txt
+cd csc250_lab2-Lin-Eric-142313/
+./a.out wdnmd.txt
+gcc -ansi -pedantic -Wall lab2.c
+./a.out lab2.c
+gcc -ansi -pedantic -Wall lab2.c
+./a.out lab2.c
+./a.out wdnmd.txt
+gcc -ansi -pedantic -Wall lab2.c
+./a.out wdnmd.txt
+./a.out roll.txt
+gcc -ansi -pedantic -Wall lab2.c
+./a.out roll.txt
+./a.out wdnmd.txt
+ls

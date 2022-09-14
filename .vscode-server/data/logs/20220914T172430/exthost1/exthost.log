@@ -423,3 +423,30 @@
 [2022-09-14 18:20:35.742] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
 [2022-09-14 18:20:35.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
 [2022-09-14 18:20:35.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-14 18:29:06.732] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-14 18:29:06.733] [exthost] [info] Lock '/home/linl20/.vscode-server/data/User/workspaceStorage/846d061fbe3b7c3efc4e33135743ac56/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-14 18:29:06.763] [exthost] [error] Canceled: Canceled
+	at Object.A [as canceled] (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:95:9092
+	at Array.forEach (<anonymous>)
+	at i.dispose (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:95:9040)
+	at b.terminate (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:97:10988)
+	at b.terminate (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at b.invoke (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:69:19042)
+	at r._receiveMessage (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:69:23854)
+	at /home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:69:21224
+	at b.invoke (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v.acceptChunk (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:69:15873)
+	at /home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:69:15003
+	at b.invoke (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v._processReadQueue (/home/linl20/.vscode-server/bin/784b0177c56c607789f9638da7b6bf3230d47a8c/out/vs/workbench/api/node/extensionHostProcess.js:69:34245) git.commit {"value":"vscode.git","_lower":"vscode.git"}
+[2022-09-14 18:29:06.784] [exthost] [info] Extension host with pid 40779 exiting with code 0
